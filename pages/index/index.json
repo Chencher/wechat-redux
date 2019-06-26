@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "优信二手车",
+  "usingComponents": {
+    "todo-wrap": "../../components/todo-wrap/index"
+  }
+}

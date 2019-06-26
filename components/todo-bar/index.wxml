@@ -1,0 +1,5 @@
+<view class="bar-list">
+    <block wx:for="{{barList}}" wx:key="{{item.id}}">
+        <view class="bar-item {{filter === item.type ? 'bar-active' : ''}}" data-type="{{item.type}}" bind:tap="selectFn">{{item.text}}</view>
+    </block>
+</view>

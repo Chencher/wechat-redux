@@ -1,0 +1,5 @@
+<view class="items">
+    <view class="item {{todoitem.completed ? 'item-com' : ''}}">.{{todoitem.text}}</view>
+    <view data-id="{{todoitem.id}}" class="item-btn" bind:tap="toggleFn">{{todoitem.completed ? '已完成':'完成'}}</view>
+    <view data-id="{{todoitem.id}}" class="item-btn item-btn-de" bind:tap="deleteFn">删除</view>
+</view>

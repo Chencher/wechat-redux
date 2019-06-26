@@ -1,0 +1,12 @@
+<view class="container">
+    <!-- 计数器 -->
+    <view class="part">
+        <view class="title">--计数器--</view>
+        <view bindtap="addNum">{{count}}</view>
+        <button bindtap="addNum">+</button>
+    </view>
+    <view class="part">
+        <view class="title">--todolist--</view>
+        <todo-wrap list="{{todos}}"></todo-wrap>
+    </view>
+</view>

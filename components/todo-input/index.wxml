@@ -1,0 +1,4 @@
+<view class="input-group">
+    <input class="input" value="{{val}}" bindinput="handleInput" placeholder="想做的事" />
+    <view class="btn" bind:tap="add">增加</view>
+</view>

@@ -1,0 +1,5 @@
+/**app.wxss**/
+page {
+  width:100%;
+  font-family: 'hiraginosansgb w3','Helvetica Neue',Helvetica,'microsoft yahei',Arial,sans-serif;
+}

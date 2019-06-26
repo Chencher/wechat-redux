@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "todo-input": "../todo-input/index",
+        "todo-item": "../todo-item/index",
+        "todo-bar": "../todo-bar/index"
+    }
+}

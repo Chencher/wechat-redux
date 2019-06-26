@@ -1,0 +1,14 @@
+.bar-list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center
+}
+.bar-item{
+    border: 1px #888 solid;
+    width: 120px;
+    text-align: center;
+}
+.bar-active{
+    background: #fb8000;
+    color: #fff;
+}

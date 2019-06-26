@@ -1,0 +1,21 @@
+{
+  "name": "u2-wechat-miniapp",
+  "version": "1.0.0",
+  "description": "简单demo实现wechat和redux结合使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chencher/wechat-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

@@ -1,0 +1,7 @@
+<view class="wrap">
+    <todo-bar bind:changeFilter="filterChangeFn" filter="{{visibilityFilters}}" />
+    <todo-input bind:add="addToList"></todo-input>
+    <view wx:for="{{vidibilityTodos}}" wx:key="{{item.id}}">
+        <todo-item todoitem="{{item}}" bind:toggle="toggleToList" bind:delete="deleteToList"></todo-item>
+    </view>
+</view>

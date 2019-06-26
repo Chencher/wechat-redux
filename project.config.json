@@ -1,0 +1,18 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.1.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"appid": "wxa9610441e3ad5d6e",
+	"projectname": "wechat-redux",
+	"condition": {}
+}
